@@ -13,5 +13,9 @@ class User < ActiveRecord::Base
     class_name: "Visit"
 
 
+  
+
+
+
 
 end
