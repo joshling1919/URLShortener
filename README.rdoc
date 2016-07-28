@@ -1,8 +1,4 @@
 == README
 
 This is a basic url shortener with a simple console level interface. It was made purely
-for the purpose of practicing migrations, validations, and writing models.  
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+for the purpose of practicing migrations, validations, and writing models.
