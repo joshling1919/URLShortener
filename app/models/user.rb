@@ -13,7 +13,11 @@ class User < ActiveRecord::Base
     class_name: "Visit"
 
 
-  
+    def recent_subs
+      self.submitted_urls.select do |sub|
+        sub.created_at > 2.minute.ago
+      end
+    end
 
 
 
